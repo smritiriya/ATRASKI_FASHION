@@ -1,25 +1,40 @@
 import logo from './logo.svg';
 import './App.css';
+import "bootstrap/dist/css/bootstrap.css";
+import Header from './components/navbar';
+import Section1 from './components/section1';
+import Aboutus from './components/Aboutus';
+import MissionVision from "./components/missionvission";
+// import Models from './components/Models';
+import M from './components/Models';
+import EventsAtAtraski from './components/EventsAtAtraski';
+import Collaboration from "./components/Collaboration";
+import Services from './components/Services';
+import Footer from './components/Footer';
+import Cities from './components/Cities';
+// import Slider from './components/DemoSLider';
+// import Demo from './components/Demo';
+ 
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <Header />
+      <Section1 />
+      <Aboutus />
+      <MissionVision />
+      {/* <Models /> */}
+      <M />
+      <EventsAtAtraski />
+      <Collaboration />
+      <Services />
+      <Cities/>
+      {/* <Slider /> */}
+      {/* <Demo/> */}
+      {/* <Footer/> */}
+    </>
+  ); 
+  
 }
 
 export default App;
