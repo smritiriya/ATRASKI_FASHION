@@ -20,25 +20,31 @@ const Section1 = () => {
   const mystyle2 = {
     // border: "2px solid blue",
   };
+  const pic= {
+    width: "210px",/* You can set the dimensions to whatever you want */
+    height: "210px",
+    objectFit: "cover",
+    margin:"15px"
+}
 
   return (
     <div className="container-fluid">
       <div className="d-none d-lg-block">
-        <div className="row col-12 ">
+        <div className="row col-12 m-0 ">
           <div className="col-4 " style={mystyle}>
             <div className="row col-12">
               <div className="col-6 imgBox">
                 <img
                   src={img1}
                   alt=""
-                  style={{ height: "90%", width: "230px" }}
+                  style={pic}
                 />
               </div>
               <div className="col-6 imgBox">
                 <img
                   src={img2}
                   alt=""
-                  style={{ height: "90%", width: "230px" }}
+                  style={pic}
                 />
               </div>
             </div>
@@ -47,14 +53,14 @@ const Section1 = () => {
                 <img
                   src={img3}
                   alt=""
-                  style={{ height: "90%", width: "230px" }}
+                  style={pic}
                 />
               </div>
               <div className="col-6 imgBox">
                 <img
                   src={img4}
                   alt=""
-                  style={{ height: "90%", width: "230px" }}
+                  style={pic}
                 />
               </div>
             </div>
@@ -63,14 +69,14 @@ const Section1 = () => {
                 <img
                   src={img5}
                   alt=""
-                  style={{ height: "90%", width: "230px" }}
+                  style={pic}
                 />
               </div>
               <div className="col-6 imgBox">
                 <img
                   src={img6}
                   alt=""
-                  style={{ height: "90%", width: "100%" }}
+                  style={pic}
                 />
               </div>
             </div>
@@ -80,7 +86,7 @@ const Section1 = () => {
               <img
                 src={img7}
                 alt=""
-                style={{ width: "80%", height: "320px" }}
+                style={{width:"350px" ,height:"20rem"}}
               />
             </div>
           </div>
@@ -90,14 +96,14 @@ const Section1 = () => {
                 <img
                   src={img11}
                   alt=""
-                  style={{ height: "90%", width: "230px" }}
+                  style={pic}
                 />
               </div>
               <div className="col-6 imgBox">
                 <img
                   src={img12}
                   alt=""
-                  style={{ height: "90%", width: "230px" }}
+                  style={pic}
                 />
               </div>
             </div>
@@ -106,14 +112,14 @@ const Section1 = () => {
                 <img
                   src={img13}
                   alt=""
-                  style={{ height: "90%", width: "230px" }}
+                  style={pic}
                 />
               </div>
               <div className="col-6 imgBox">
                 <img
                   src={img14}
                   alt=""
-                  style={{ height: "90%", width: "230px" }}
+                  style={pic}
                 />
               </div>
             </div>
@@ -122,14 +128,14 @@ const Section1 = () => {
                 <img
                   src={img15}
                   alt=""
-                  style={{ height: "90%", width: "230px" }}
+                  style={pic}
                 />
               </div>
               <div className="col-6 imgBox">
                 <img
                   src={img16}
                   alt=""
-                  style={{ height: "90%", width: "100%" }}
+                  style={pic}
                 />
               </div>
             </div>

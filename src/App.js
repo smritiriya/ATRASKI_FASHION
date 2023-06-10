@@ -18,7 +18,7 @@ import Cities from './components/Cities';
 
 function App() {
   return (
-    <>
+    <div style={{backgroundColor:"black" ,color:"gainsboro"}}>
       <Header />
       <Section1 />
       <Aboutus />
@@ -32,7 +32,7 @@ function App() {
       {/* <Slider /> */}
       {/* <Demo/> */}
       {/* <Footer/> */}
-    </>
+    </div>
   ); 
   
 }

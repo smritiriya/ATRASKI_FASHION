@@ -5,42 +5,44 @@ const Services = () => {
     const card = {
       backgroundColor: "rgb(255, 164, 179)",
       padding: "30px",
-    //   paddingBottom: "30px",
-    //   paddingLeft: "20px",
-    //   paddingRight: "20px",
+      //   paddingBottom: "30px",
+      //   paddingLeft: "20px",
+      //   paddingRight: "20px",
       borderRadius: "15px",
       margin: "2rem",
+      boxShadow: " 0 4px 8px 0 white, 0 6px 20px 0 pink",
+      color: "black",
     };
     
   return (
     <div className="container">
       <h1 className="text-center my-4 Heading-1">OUR SERVICES</h1>
       <div className="row col-12 justify-content-center my-2 text-center ">
-        <div className="col-12  col-md-6 col-lg-3 my-1  shadow " style={card}>
-          <h5 style={{ fontWeight: "bolder", alignItems: "center" }}>
+        <div className="col-12  col-md-6 col-lg-3 my-1 " style={card}>
+          <h5 style={{ fontWeight: "bolder", alignItems: "center",color:"black" }}>
             PORTFOLIO BUILDING + MANAGEMENT & MARKETING
           </h5>
         </div>
-        <div className="col-12  col-md-6 col-lg-3 my-1 shadow" style={card}>
+        <div className="col-12  col-md-6 col-lg-3 my-1 " style={card}>
           <h5 style={{ fontWeight: "bolder", alignItems: "center" }}>
             {" "}
             PROFESSIONALS
           </h5>
         </div>
-        <div className="col-12  col-md-6 col-lg-3 my-1 shadow" style={card}>
+        <div className="col-12  col-md-6 col-lg-3 my-1 " style={card}>
           <h5 style={{ fontWeight: "bolder" }}>
             COLLABORATION WITH INDUSTRIES
           </h5>
         </div>
       </div>
       <div className="row col-12 justify-content-center my-5">
-        <div className="col-12  col-md-6 col-lg-3 my-1 shadow" style={card}>
+        <div className="col-12  col-md-6 col-lg-3 my-1 " style={card}>
           <h5 style={{ fontWeight: "bolder" }}>MODEL SCOUTING</h5>
         </div>
-        <div className="col-12  col-md-6 col-lg-3 my-1 shadow " style={card}>
+        <div className="col-12  col-md-6 col-lg-3 my-1  " style={card}>
           <h5 style={{ fontWeight: "bolder" }}>TEST SHOOTS</h5>
         </div>
-        <div className="col-12  col-md-6 col-lg-3 my-1 shadow" style={card}>
+        <div className="col-12  col-md-6 col-lg-3 my-1 " style={card}>
           <h5 style={{ fontWeight: "bolder" }}>MODEL TRAINING</h5>
         </div>
       </div>
