@@ -43,10 +43,28 @@ import pune from "./Pune.jpg";
 import silliguri from "./Siliguri.jpg";
 import Guhawti from "./Guwahati.jpg";
 
+// import target from "./target.gif";
+
+import gif1 from "./model.png";
+import gif2 from "./expertise.png";
+import gif3 from "./portfolio.png";
+import gif4 from "./fashion.png";
+import gif5 from "./videography.png";
+import gif6 from "./cooperation.png";
+import mission from "./goal.png";
+import vission from "./view.png";
 
 
 
 export {
+  vission,
+  mission,
+  gif1,
+  gif2,
+  gif3,
+  gif4,
+  gif5,
+  gif6,
   Guhawti,
   Delhi,
   Bsr,

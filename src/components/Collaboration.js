@@ -1,8 +1,11 @@
 import React from 'react'
 
 const Collaboration = () => {
+  const mystyle = {
+    margin:"10px"
+  }
   return (
-    <div>
+    <div className='collab'>
       <div className="row my-3 py-3 py-md-5 px-2  justify-content-center align-items-center">
         <h1 className="Heading-1 text-center"> OUR PAST COLLABORATION</h1>
         {/* <div className="col-lg-5 d-none d-lg-block ps-0 ps-sm-4 text-start py-3"> */}
@@ -19,14 +22,31 @@ const Collaboration = () => {
             brilliance!
           </p>
         </div>
-        <div className="col-9" style={{fontWeight:"bold"}}>
-          <ul>
-            <li>Bhubaneswar Fashion Week</li>
-            <li>Bangalore Fashion Confluence</li>
-            <li>Pantaloons</li>
-            <li>Big Bazar</li>
-            <li>Pride campaign</li>
-            <li>IIT Kanpur – KIIT fest.</li>
+        <div
+          className="col-9 d-flex justify-content-center"
+          style={{ fontWeight: "bold" }}
+        >
+          <ul className="row col-12 d-flex justify-content-center">
+            <li className="m-4 col-3" style={{ color: "rgb(9, 201, 201)" }}>
+              Bhubaneswar Fashion Week
+            </li>
+            <li className="m-4 col-3" style={{ color: "rgb(198, 198, 48)" }}>
+              {" "}
+              Pantaloons{" "}
+            </li>
+            <li className="m-4 col-3" style={{ color: "pink" }}>
+              Big Bazar{" "}
+            </li>
+            <li className="m-4 col-3" style={{ color: "rgb(26, 160, 42)" }}>
+              Bangalore Fashion Confluence
+            </li>
+
+            <li className="m-4 col-3" style={{ color: "rgb(234, 141, 3);" }}>
+              Pride campaign
+            </li>
+            <li className="m-4 col-3" style={{ color: "rgb(151, 5, 151)" }}>
+              IIT Kanpur – KIIT fest.
+            </li>
           </ul>
         </div>
 

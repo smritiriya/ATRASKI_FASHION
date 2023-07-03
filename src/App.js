@@ -12,26 +12,38 @@ import Collaboration from "./components/Collaboration";
 import Services from './components/Services';
 import Footer from './components/Footer';
 import Cities from './components/Cities';
+import PreduliveCarousel from './components/preduliveCarousel';
+import Banner from './components/Banner';
+import NewBanner from './components/Newbanner';
+import WhatweOffer from './components/Services';
+import GridExample from './components/MV';
+import MV from './components/MV';
 // import Slider from './components/DemoSLider';
 // import Demo from './components/Demo';
  
 
 function App() {
   return (
-    <div style={{backgroundColor:"black" ,color:"gainsboro"}}>
+    <div style={{ backgroundColor: "black", color: "gainsboro" }}>
       <Header />
-      <Section1 />
+      {/* <Section1 /> */}
+      <NewBanner />
       <Aboutus />
-      <MissionVision />
+      {/* <MissionVision /> */}
+      {/* <GridExample/> */}
       {/* <Models /> */}
-      <M />
-      <EventsAtAtraski />
+      <MV />
       <Collaboration />
+      <M />
+      {/* <EventsAtAtraski /> */}
+
       <Services />
-      <Cities/>
-      {/* <Slider /> */}
-      {/* <Demo/> */}
-      {/* <Footer/> */}
+      <Cities />
+      {/* <Slider />
+      <Demo/> */}
+      <Footer />
+      {/* <PreduliveCarousel /> */}
+      {/* <Banner/> */}
     </div>
   ); 
   
