@@ -9,16 +9,8 @@ export const WhatWeOffer = [
     icon: gif1,
     bgcolor: "#BB346C",
 
-    title: "Model Training",
+    title: "Training",
     // desc: " Track and monitor all regulatory compliances ",
-  },
-  {
-    key: 2,
-    icon: gif2,
-    bgcolor: "#1F7CFF",
-
-    title: "Professionals",
-    // desc: "Get real-time legal updates ",
   },
   {
     key: 3,
@@ -28,14 +20,7 @@ export const WhatWeOffer = [
     title: "Portfolio Building ",
     // desc: "Promote ethical business operations within the company.",
   },
-  {
-    key: 4,
-    icon: gif4,
-    bgcolor: "#1F7CFF",
-
-    title: "Model Scouting",
-    // desc: "Get thorough tax assessment. ",
-  },
+  
 
   {
     key: 5,
@@ -50,7 +35,7 @@ export const WhatWeOffer = [
     icon: gif6,
     bgcolor: "#1F7CFF",
 
-    title: "Collaboration with Industries",
+    title: "Collaboration with Bransds",
     // desc: "Keep an eye on all insurance and receive expiry alerts.",
   },
 ];

@@ -30,7 +30,7 @@ const para = {
 function OfferCard({ data }) {
   return (
     <div
-      className="col-12  col-md-6 col-lg-4 my-3 py-2 py-md-1 "
+      className="col-12  col-md-6 col-lg-3 my-3 py-2 py-md-1 "
       key={data?.key}
       data-aos="zoom-in"
       data-aos-duration="2000"

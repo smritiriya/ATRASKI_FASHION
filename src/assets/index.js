@@ -54,9 +54,21 @@ import gif6 from "./cooperation.png";
 import mission from "./goal.png";
 import vission from "./view.png";
 
+import pantaloon from "./pantaloons.png";
+import bigb from "./bigb.png";
+import fashionweek from "./fashionweek.png";
+
+
+import map from "./map.jpg";
+import location from "./location.png";
 
 
 export {
+  location,
+  map,
+  fashionweek,
+  pantaloon,
+  bigb,
   vission,
   mission,
   gif1,
