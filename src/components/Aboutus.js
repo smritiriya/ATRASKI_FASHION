@@ -5,7 +5,7 @@ const Aboutus = () => {
   return (
     <div className="container-fluid collab col-12 row m-0 py-5 py-md-5 px-2 my-5 d-flex justify-content-around align-items-center">
       <div
-        className="col-lg-4 d-none d-lg-block ps-0 ps-sm-4 text-center text-lg-start py-3"
+        className="col-lg-4 d-none d-lg-block ps-0 ps-sm-4 text-center text-lg-start "
         data-aos="fade-right"
         data-aos-duration="3000"
       >

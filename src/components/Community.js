@@ -4,7 +4,7 @@ const Community = () => {
   return (
     <>
       <div
-        className="container-fluid p-5 text-center bg-image collab align-items-center"
+        className="container-fluid p-5 text-center bg-image  align-items-center"
         style={{
         //   backgroundImage: `url(${backimg})`,
 
@@ -14,7 +14,9 @@ const Community = () => {
           backgroundPosition: "center",
         }}
       >
-        <div className="mask py-5 align-items-center" style={{ backgroundColor: "rgba(0, 0, 0, 0.6)" }}>
+        <div className="mask py-5 align-items-center"
+          // style={{ backgroundColor: "rgba(0, 0, 0, 0.6)" }}
+        >
           <div className="d-flex justify-content-center align-items-center h-100">
             <div className="text-white">
               <h1 className="mb-3 animate">ATRASKI | FASHION</h1>

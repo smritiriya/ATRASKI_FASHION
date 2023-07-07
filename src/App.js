@@ -17,6 +17,8 @@ import Opportunities from './components/Opportunities';
 import Community from './components/Community';
 import IP from './components/IP';
 import City from './components/City';
+import ClickableColumns from './components/serviceCard';
+import Cities from './components/Cities';
 
  
 
@@ -28,23 +30,27 @@ function App() {
       <Aboutus />
       <MV />
       <BrandCollaboration />
-
       <Services />
+      {/* <ClickableColumns/> */}
       <IP />
       {/* <Collaboration /> */}
-
-      <Opportunities />
+      {/* <Opportunities /> */}
       {/* <M /> */}
       {/* <EventsAtAtraski /> */}
-      <Community />
-      {/* <Cities /> */}
-      
-      <City/>
+
+      <Cities />
+
+      {/* <City /> */}
       {/* <Team /> */}
       <Test />
+      <Community />
     </div>
   ); 
   
 }
 
 export default App;
+
+
+
+

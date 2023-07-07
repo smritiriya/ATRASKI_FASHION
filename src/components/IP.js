@@ -37,9 +37,9 @@ import { bigb, fashionweek, pantaloon } from "../assets";
 
           <Row
             className="justify-content-center py-5"
-            style={{ backgroundColor: "rgba(0, 0, 0, 0.6)" }}
+            // style={{ backgroundColor: "rgba(0, 0, 0, 0.6)" }}
           >
-            <hr />
+            {/* <hr /> */}
             {brandLogos.map((logo) => (
               <Col xs={10} sm={6} md={4} lg={3} key={logo.id} className="p-4">
                 <img
@@ -51,7 +51,7 @@ import { bigb, fashionweek, pantaloon } from "../assets";
                 />
               </Col>
             ))}
-            <hr />
+            {/* <hr /> */}
           </Row>
         </Container>
       </>
