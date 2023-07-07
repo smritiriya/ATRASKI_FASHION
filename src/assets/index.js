@@ -56,7 +56,26 @@ import vission from "./view.png";
 
 import pantaloon from "./pantaloons.png";
 import bigb from "./bigb.png";
+import toi from "./toi.gif";
+import dalmia from "./dalmia.png";
+import hero from "./hero.png";
+import fresh from "./frespreso.jpg";
+import gdg from "./gdgpng.png";
 import fashionweek from "./fashionweek.png";
+import feed from "./feedingIndia.png";
+import tele from "./telegraph.png";
+import chai from "./chai-break-logo.jpg";
+import amri from "./AMRI.png";
+import elev from "./Elleven-Logo_.png";
+import mayfair from "./mayfair.jpg";
+import jugad from "./jugad.png";
+import sports from "./sports.png";
+import fame from "./the-official-fface-logo-KJ382R.jpg";
+import delhif from "./Delhi Fashion Confluence Logo.png";
+import bubf from "./bhubaneswar-fashion-week.png";
+
+
+
 
 
 import map from "./map.jpg";
@@ -64,6 +83,22 @@ import location from "./location.png";
 
 
 export {
+  delhif,
+  bubf,
+  fame,
+  sports,
+  mayfair,
+  jugad,
+  feed,
+  tele,
+  chai,
+  amri,
+  elev,
+  toi,
+  dalmia,
+  hero,
+  fresh,
+  gdg,
   location,
   map,
   fashionweek,

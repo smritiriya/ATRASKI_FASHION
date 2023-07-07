@@ -76,23 +76,51 @@
 
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { bigb, fashionweek, pantaloon } from "../assets";
+import {
+  bigb,
+  fashionweek,
+  pantaloon,
+  toi,
+  dalmia,
+  hero,
+  fresh,
+  gdg,
+  feed,
+  tele,
+  chai,
+  amri,
+  elev,
+  mayfair,
+  jugad,
+  sports,
+  fame,
+} from "../assets";
 
 const BrandCollaboration = () => {
   const brandLogos = [
     { id: 1, src:pantaloon },
     { id: 2, src: bigb },
-    // { id: 3, src: fashionweek },
-    // { id: 4, src: "logo4.png" },
-    // { id: 5, src: "logo5.png" },
-    // { id: 6, src: "logo6.png" },
+    { id: 3, src: toi },
+    { id: 4, src:hero  },
+    { id: 5, src:  dalmia},
+    { id: 6, src: fresh },
+    { id: 7, src: gdg },
+    { id: 8, src: feed },
+    { id: 9, src: tele },
+    { id: 10, src: chai },
+    { id: 11, src: amri },
+    { id: 12, src: elev },
+    { id: 13, src: mayfair },
+    { id: 14, src: jugad },
+    { id: 15, src: sports },
+    { id: 16, src: fame },
     // Add more logo objects as needed
   ];
 
   return (
     <>
-      <h2 className="Heading-1 text-center py-5">Our Brand Collaborations</h2>
-      <Container fluid className="py-3 collab ">
+      <h2 className="Heading-1 text-center  py-5">Our Brand Collaborations</h2>
+      <Container  className="py-3  ">
         <Row
           className="justify-content-center py-5"
           // style={{ backgroundColor: "rgba(0, 0, 0, 0.6)" }}
@@ -103,7 +131,7 @@ const BrandCollaboration = () => {
               xs={10}
               sm={6}
               md={4}
-              lg={3}
+              lg={2}
               key={logo.id}
               className="p-4"
               data-aos="zoom-in"

@@ -1,15 +1,15 @@
 
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { bigb, fashionweek, pantaloon } from "../assets";
+import { delhif, bubf, fashionweek } from "../assets";
 
 // const BrandCollaboration = () => {
   
 
     const IP = () => {
     const brandLogos = [
-    { id: 1, src:pantaloon },
-    { id: 2, src: bigb },
+    { id: 1, src:fashionweek },
+    { id: 2, src: delhif },
     // { id: 3, src: fashionweek },
     // { id: 4, src: "logo4.png" },
     // { id: 5, src: "logo5.png" },
@@ -21,7 +21,7 @@ import { bigb, fashionweek, pantaloon } from "../assets";
         <h2 className="Heading-1 text-center py-5 mt-5">
           Intellectual Presentors
         </h2>
-        <Container fluid className="py-3 collab ">
+        <Container  className="py-3  ">
           {/* <Row>
         <div className="justify-content-center text-center">
           <p>
